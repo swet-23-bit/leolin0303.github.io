@@ -1,0 +1,5 @@
+f = open('scores.txt' 'r')
+words = f.read()
+print(words)
+f.close()
+word = f.read(6)
